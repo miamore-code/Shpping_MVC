@@ -1,0 +1,272 @@
+body
+{
+margin:0px;
+padding:0px;
+overflow-x:hidden;	
+	
+}
+.header
+{
+width:100%;
+height:auto;
+	
+}
+#logo h1 p
+{
+letter-spacing:2px;
+color:#666;
+	
+}
+
+#wishlist
+
+{
+letter-spacing:2px;
+color:#666;
+padding:15px;
+}
+
+#wishlist span
+{
+color:#FB5200;	
+}
+
+.menu
+
+{
+width:100%;
+height:55px;
+box-shadow:0px 2px  #CCCCCC;
+
+	
+}
+
+.navbar ul li
+{
+display:inline-block;
+font-size:14px;
+padding:15px 2px;
+transition:0.5s ease all;
+
+
+
+}
+
+
+.navbar ul li:hover
+
+{
+	
+	background-color:#F45000;
+	border-left: solid 5px #FF5F11;
+	transition-delay:0.2s ease all;	
+	
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	
+	
+	
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 240px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,255,0.2);
+    padding: 12px 5px;
+ 
+}
+
+.dropdown:hover .dropdown-content 
+
+{
+    display: block;
+	position:absolute;
+	
+}
+
+#myCarousel img
+{
+width:100%;
+height:430px;	
+z-index:-1;
+margin:0px;
+padding:0px;
+	
+}
+
+.list-group-item ul li
+{
+font-size:18px;
+padding:10px 5px;
+text-decoration:none;
+list-style-type:none;	
+	
+}
+
+.contact
+
+{
+background-image:url(../images/back1.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:cover;
+width:90%;
+margin-left:5%;
+height:850px;	
+	
+	
+}
+
+
+.footer
+
+{
+width:100%;
+height:250px;
+background-color:#666;	
+	
+	
+}
+
+.recent
+
+{
+width:100%;
+height:500px;	
+	
+	
+}
+
+.subfooter
+
+{
+	background-color:#000;
+	height:100px;
+	width:100%;
+	position:absolute;
+	
+}
+
+.subfooter h5
+{
+font-size:20px;
+margin-top:4%;
+padding:10px;	
+	
+}
+
+
+
+@media screen and  (max-width: 320px) and (min-width: 120px)
+
+
+{
+	
+
+	
+.header
+{
+width:100%;
+height:250px;
+
+	
+}
+	
+.menu
+
+{
+width:100%;
+height:55px;
+background-color:#6FF !important;
+box-shadow:0px 2px  #00CCFF !important;
+
+	
+}	
+	 
+  
+.navbar ul li
+{
+float:left;
+position:relative;
+width:320px;
+font-size:15px;
+padding:10px 8px;
+transition:0.5s ease all;
+
+
+
+
+}
+#myCarousel img
+{
+width:100%;
+height:380px;	
+z-index:-1;
+margin:0px;
+padding:0px;
+	
+}
+
+	
+	
+	
+}
+
+
+
+
+@media screen and  (max-width: 767px) and (min-width: 321px)
+
+
+{
+	
+	
+.menu
+
+{
+width:100%;
+height:55px;
+background-color:#6FF !important;
+box-shadow:0px 2px  #00CCFF !important;
+
+	
+}	
+	 
+	
+
+.navbar ul li
+{
+float:left;
+position:relative;
+width:676px;
+font-size:15px;
+padding:10px 8px;
+transition:0.5s ease all;
+
+
+
+
+}
+
+
+}
+
+
+
+
+@media screen and  (max-width: 1300px) and (min-width: 677px)
+
+
+{
+	
+	
+	
+	
+	
+}
